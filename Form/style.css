@@ -1,0 +1,77 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="number"],
+input[type="phone"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* Button styling */
+button[type="submit"] {
+  background-color:#19746c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover[type="submit"]:hover {
+  background-color: #19746c;
+  transform: scale(1.1);
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 600px) {
+  form {
+      width: 100%;
+      padding: 15px;
+  }
+}
