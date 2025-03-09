@@ -1,0 +1,36 @@
+ * {
+   font-family: sans-serif;
+ }
+
+ h1 {
+   background-color: grey;
+   color: #fff;
+   border: 1px solid #212121;
+   text-align: center;
+ }
+
+ h3 {
+   background-color: grey;
+   color: #fff;
+   border: 1px solid #212121;
+   text-align: center;
+ }
+
+ button {
+   margin-left: 640px;
+   padding: 10px 20px;
+   font-weight: bold;
+   border-radius: 8px;
+ }
+
+ p {
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .guide {
+   border: 1px solid #212121;
+   width: 30%;
+   margin-left: 480px;
+   border-radius: 8px;
+ }
