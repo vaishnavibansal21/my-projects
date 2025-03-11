@@ -1,0 +1,43 @@
+body{
+  background-color: #212121;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin: 10px;
+  background-color: orange;
+  color: #212121;
+  width: 30%;
+  font-weight: bold;
+  margin-left: 465px;
+}
+
+form{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.guessfield{
+ width: 15%;
+ height: 30px;
+ text-align: center;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.guess-sub{
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
